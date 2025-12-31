@@ -1,0 +1,46 @@
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px white solid;
+    font-size: 18px;
+}
+
+.navleft {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.navleft .title {
+    font-weight: 900;
+}
+
+.navright {
+    margin-right: 10px;
+}
+
+.logoimg {
+    width: 40px;
+}
+
+.logoimg img {
+    width: 100%;
+}
+
+.topnav ul {
+    list-style-type: none;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+}
